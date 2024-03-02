@@ -64,6 +64,7 @@ try:
     manf_image = images[3]
 except FileNotFoundError:
     print('*************************************')
+    print("not found file")
     print("Insert new image please and try again!!")
     print("Notice: the clearity and resolution should be clear and perfectly skewed and the image not to far and not too close")
     print('*************************************')
@@ -113,6 +114,7 @@ manf_id = get_manf_id()
 firstname = get_first_name()
 secondname = get_second_name()
 
+print(national_id)
 temp_fname = arabic_reshaper.reshape(firstname)
 temp_sname = arabic_reshaper.reshape(secondname)
 arabic_fname = get_display(temp_fname)
@@ -123,6 +125,7 @@ try:
     english_id = convert_numbers.arabic_to_english(national_id)
 except TypeError:
     print('*************************************')
+    print("no id")
     print("Insert new image please and try again!!")
     print("Notice: the clearity and resolution should be clear and perfectly skewed and the image not to far and not too close")
     print('*************************************')
@@ -175,6 +178,7 @@ try:
     verify_id = english_id[13]
 except IndexError:
     print('*************************************')
+    print('no full id')
     print("Insert new image please and try again!!")
     print("Notice: the clearity and resolution should be clear and perfectly skewed and the image not to far and not too close")
     print('*************************************')

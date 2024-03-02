@@ -4,17 +4,17 @@ import cv2
 #for image preprocessing (from internet) (resize / invert / gray / threshold)
 def resize(image , flag):
     if flag == "id":
-        bigger = cv2.resize(image, (1690, 1665))
+        bigger = cv2.resize(image, (650, 800))
         return bigger
     elif flag == 1:
         stretch_near = cv2.resize(image, (780, 540), 
                     interpolation = cv2.INTER_LINEAR)
         return stretch_near
     elif flag == "firstname":
-        forname = cv2.resize(image, (500, 200))
+        forname = cv2.resize(image, (600, 200))
         return forname
     elif flag == "secondname":
-         forname = cv2.resize(image, (700, 200))
+         forname = cv2.resize(image, (500, 200))
     else:
         return image
 
