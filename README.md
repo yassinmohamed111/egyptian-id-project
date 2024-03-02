@@ -8,10 +8,14 @@
 
 <h3>After detection of the ID card and croping the Detected parts , there's some image preprocessing is done on them:</h3>
 
-![output_manf](https://github.com/yassinmohamed111/egyptian-id-project/assets/108435195/ca8f1d7f-d03c-42fe-914a-8a7664ef67d2)
+![output_manf](https://github.com/yassinmohamed111/egyptian-id-project/assets/108435195/6573a57c-89ac-4d25-b987-e30b6b635c22)
 
-![output_id](https://github.com/yassinmohamed111/egyptian-id-project/assets/108435195/4d810998-7578-4e3d-b9c5-372410a8bf71)
+![output_id](https://github.com/yassinmohamed111/egyptian-id-project/assets/108435195/f5cb91f1-b420-4b9e-a23e-0d8be4c336c4)
 
-![output_second_name](https://github.com/yassinmohamed111/egyptian-id-project/assets/108435195/6f4e3fd5-7c28-49dc-a041-cf11e5a4fe84)
+![output_second_name](https://github.com/yassinmohamed111/egyptian-id-project/assets/108435195/61a37849-f077-4d8c-ab45-772cb1b47b86)
 
-![output_name](https://github.com/yassinmohamed111/egyptian-id-project/assets/108435195/bcefa489-04f3-4f02-a888-8d5b38081499)
+![output_name](https://github.com/yassinmohamed111/egyptian-id-project/assets/108435195/743737d5-c5b8-4b0b-83d1-adb6832657d2)
+
+<h3>After preprocessing part used ocr arabic pytesseract to detect arabic letters and numerals and did some analysis on the ouptut to extract the useful data from the National_id  :</h3>
+
+![Screenshot (1306)](https://github.com/yassinmohamed111/egyptian-id-project/assets/108435195/f64fbb08-c01a-4ad4-9b6c-da6b05bc1810)
