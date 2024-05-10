@@ -1,5 +1,7 @@
 <h1>Egyptian_id Info extractor</h1>
 
+<h2> this version is not updated ask for the updated version</h2>
+
 <h3>The project starts with Predicting whether it's an Egyptian Id or Not  by using Custom trained Yolov8 model</h3>
 
 ![r2](https://github.com/yassinmohamed111/egyptian-id-project/assets/108435195/e763238c-8d66-44c9-9a56-605d27632116)
